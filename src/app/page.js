@@ -1,26 +1,21 @@
 import Image from 'next/image'
-import CharacterCard from '@/components/CharacterCard'
-import Inventory from '@/components/Inventory'
-import Chat from '@/components/Chat'
-import Map from '@/components/Map'
+import CharacterCard from '@/components/characterCard/CharacterCard'
+import Inventory from '@/components/Inventory/Inventory'
+import Chat from '@/components/Chat/Chat'
+import Map from '@/components/Map/Map'
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-4 bg-[url('/background.jpg')] bg-cover bg-center">
-      <div className="grid grid-cols-3 gap-4 max-w-screen-xl mx-auto">
-        {/* Coluna Esquerda */}
-        <div className="space-y-4">
+    <main className="main-bg">
+      <div className="layout-grid">
+        <div className="column">
           <CharacterCard />
         </div>
-
-        {/* Coluna Central */}
-        <div className="space-y-4">
+        <div className="column">
           <Inventory />
           <Map />
         </div>
-
-        {/* Coluna Direita */}
-        <div>
+        <div className="column">
           <Chat />
         </div>
       </div>

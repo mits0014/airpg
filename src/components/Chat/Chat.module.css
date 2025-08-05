@@ -1,0 +1,38 @@
+.card {
+  background: #f0f0f0;
+  border: 2px solid #ccc;
+  padding: 16px;
+  border-radius: 12px;
+  margin-top: 16px;
+  gap: 8px;
+}
+
+.title {
+  color: #000000;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.chatWindow {
+  height: 200px;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 12px;
+  overflow-y: auto;
+}
+
+.chatMessage {
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: #e1e1e1;
+  border-radius: 6px;
+}
+
+.chatInput {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}

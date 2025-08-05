@@ -1,0 +1,65 @@
+.card {
+  background: #2e2b29;
+  padding: 8px;
+  padding-inline: 16px;
+  border-radius: 12px;
+}
+.inerCard {
+  background-color: #F1D9B6;
+  padding: 5px 16px 16px 16px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.title {
+  text-align: center;
+  margin: 0px;
+  font-size: 1.2rem;
+  color: #C59B4C;
+}
+
+.subtitle {
+  color: #000000;
+  font-size: 1rem;
+  margin: 12px 0 8px;
+}
+
+.equipmentGrid {
+  display: grid;
+  grid-template-columns: 3FR 1FR; 
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.charaterPlaceholder {
+  width: 100%;
+  height: 100%;
+  background-color: #280C06;
+  border-radius: 12px;
+}
+
+.slot {
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: #280C06;
+  border-radius: 8px;
+}
+.itemsContainer {
+  max-height: 80px;
+  overflow-y: scroll;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  background: #280C06;
+  padding: 6px 10px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+}

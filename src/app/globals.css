@@ -1,7 +1,25 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+*{
+  margin: 0px;
+  padding: 0px;
+}
 
 body {
-  @apply bg-[#1b1b1b] text-[#e7d3a1];
+  margin: 0;
+  font-family: sans-serif;
+  background: url('/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #e7d3a1;
+}
+
+.main-bg {
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.layout-grid {
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 1360px;
+  margin: 0 auto;
 }
