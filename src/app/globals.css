@@ -1,6 +1,21 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
+}
+:root {
+  --color-primary: #303030;
+  --color-secondary: #F1D9B6;
+  --color-tertiary: #280C06;
+  --color-title: #C59B4C;
+  --color-background: #f5f5f5;
+  --color-text: #333333;
+}
+
+@font-face {
+  font-family: "AlbertusMT";
+  src: url("/fonts/AlbertusMT.woff") format('woff'), url("/fonts/AlbertusMT.otf") format('opentype'),url("/fonts/AlbertusMT.otf") format('truetype') ;
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -9,11 +24,16 @@ body {
   background: url('/background.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #e7d3a1;
+
+}
+
+body span {
+  font-size: 12px;
 }
 
 .main-bg {
   padding: 1rem;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 .layout-grid {

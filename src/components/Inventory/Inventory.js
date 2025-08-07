@@ -12,7 +12,7 @@ const items = [
 export default function Inventory() {
   return (
     <div className={styles.card}>
-      <h2 className={styles.title}>Inventário</h2>
+      <p className={styles.title}>Inventário</p>
       <div className={styles.inerCard}>
         <div>
           <h3 className={styles.subtitle}>Equipamento</h3>
@@ -34,7 +34,7 @@ export default function Inventory() {
             <ul className={styles.list}>
               {items.map((items, index) => (
                 <li key={index} className={styles.listItem}>
-                  <span>{items.name}</span>
+                  <span >{items.name}</span>
                   <span>x{items.quantity}</span>
                 </li>
               ))}
