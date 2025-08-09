@@ -34,11 +34,12 @@ body span {
 .main-bg {
   padding: 1rem;
   min-height: 100%;
+
 }
 
 .layout-grid {
   display: grid;
-  grid-template-columns: 2fr repeat(2, 1fr);
+  grid-template-columns: 2.5fr repeat(2, 1fr);
   gap: 1rem;
   max-width: 1360px;
   margin: 0 auto;

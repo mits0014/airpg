@@ -9,14 +9,14 @@ export default function Home() {
     <main className="main-bg">
       <div className="layout-grid">
         <div className="column">
-          <CharacterCard />
+          <CharacterCard/>
         </div>
         <div className="column">
-          <Inventory />
-          <Map />
+          <Inventory/>
+          <Map/>
         </div>
         <div className="column">
-          <Chat />
+          <Chat/>
         </div>
       </div>
     </main>

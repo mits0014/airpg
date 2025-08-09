@@ -3,23 +3,68 @@
     padding: 1rem;
     border-radius: 0.5rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    height: 90vh;
+}
+
+
+.informationgrid{
+    display: grid;
+    grid-row:  1fr 4fr;
+    height: 100%;
+    width: 100%;
+}
+.characterid {
+
+    width: 100%;
+    margin-inline: 5px;
+    border-radius: 0px 0px 5px 5px ;
+    height: 100%;
+    background-color: var(--color-primary);
+}
+
+.characteridinfo{
+    display: flex;
+    
+}
+
+.portraitHolder{
+    background: url('/portrait.jpg') no-repeat;
+    background-position-y: 0px ;
+    background-position-x: -220px; /* = 100% 50% */
+    background-size: 160% auto;
+    height: 100%;
+    width: 100%;
 }
 
 .gridTwo {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     text-align: center;
     font-weight: bold;
 }
 
 .gridThree {
     display: grid;
-    grid-template-columns:
-        repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 440px;
+    justify-items: center;
     text-align: center;
     font-weight: bold;
     font-size: 1.1rem;
 }
+
+.gridThree div {
+  background-color: var(--color-secondary);
+  border-radius: 50%; /* ou 100%, efeito igual */
+  width: 65px;        /* largura igual à altura */
+  height: 65px;
+  display: flex;      /* para centralizar conteúdo */
+  align-items: center;
+  justify-content: center;
+  color: var(--color-tertiary);       /* cor do texto */
+  font-weight: bold;
+  border: 2px solid var(--color-tertiary);
+} 
 
 .portrait {
     display: flex;
@@ -95,3 +140,13 @@
     border-radius: 0.25rem;
     margin-bottom: 0.25rem;
 }
+
+.titulo {
+  background-color: #2e2b29;
+  margin-bottom: 20px;
+  width: 220px;
+  border-radius: 0px 0px 5px 5px;
+  margin-left: auto;
+  margin-right: auto; /* centraliza */
+}
+

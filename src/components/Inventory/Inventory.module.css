@@ -8,8 +8,8 @@
 .inerCard {
   background-color: #F1D9B6;
   padding: 5px 16px 5px 16px;
-  border-radius: 5px 5px 0px 0px;
-  margin-bottom: 16px;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .title {
