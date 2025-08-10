@@ -11,19 +11,20 @@
   background-color: #F1D9B6;
   padding: 5px 16px 5px 16px;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .card{
      background-color: var(--color-primary);
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 0.5rem;
+    
 }
 .flex{
     font-family: "AlbertusMT", sans-serif;
     color: var(--color-tertiary );
     display: flex;
-    padding-top: 20px;
+    padding: 5px;
     gap: 5px;
 }
 
@@ -98,6 +99,7 @@
     text-align: center;
     font-weight: bold;
     font-size: 1.1rem;
+    margin: 10px;
 }
 
 .gridThree2 div{
@@ -124,7 +126,7 @@
 }
 
 .barSection {
-    margin: 1rem 0;
+    margin: 0px;
 }
 
 .barLabel {
@@ -146,6 +148,12 @@
 .blue {
     background-color: blue;
 }
+.skills{
+    max-width: 200px;
+    
+    
+    overflow: hidden;
+}
 
 .skills h3{
     margin-bottom: 0.5rem;
@@ -154,12 +162,13 @@
 
 .dots {
     display: flex;
+
     gap: 0.3rem;
 }
 
 .dot {
-    width: 1rem;
-    height: 1rem;
+    width: 50px;
+    height: 50px;
     background-color: #3c2615;
     border-radius: 50%;
 }
@@ -174,10 +183,22 @@
     overflow-y: auto;
 }
 
+
+.list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.list::-webkit-scrollbar-thumb{
+  background: var(--color-tertiary);
+  border-radius: 4px;
+}
+
 .list {
     list-style: none;
     padding: 0;
     color: white;
+    max-height: 80px;
+    overflow-y: scroll;
 }
 
 .list li {
